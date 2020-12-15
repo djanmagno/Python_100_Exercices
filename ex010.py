@@ -1,4 +1,4 @@
-# Real x Dolar conversor
+# Real x Dollar conversor
 
 r = float(input("How much money do you have on your pocket? R$ "))
 d = r / 5.53

@@ -1,4 +1,4 @@
-# Anatomizing a variable
+# Anatomizing a variable!
 variable = input("Please type anything: ")
 print("The primitive type of this value is %s" % type(variable))
 print("Is this variable has any space? %s" % variable.isspace())

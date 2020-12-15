@@ -6,4 +6,4 @@ s = lambda x, y: x + y
 
 result = s(number_1, number_2)
 
-print("This adding operation of %s and %s has a result %s" % (number_1, number_2, result))
+print("This adding operation of %s and %s has a result %s." % (number_1, number_2, result))

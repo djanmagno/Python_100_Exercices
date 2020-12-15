@@ -1,5 +1,5 @@
 # Predecessor and Successor numbers
 
-number = int(input("Please type an integer number: "))
+numbers = int(input("Please type an integer number: "))
 
-print("Looking the number %s, its Predecessor is %s and its succesor is %s!" % (number, number - 1, number + 1))
+print("Looking the number %s, its Predecessor is %s and its Successor is %s!" % (numbers, numbers - 1, numbers + 1))

@@ -46,15 +46,15 @@ for a, b in enumerate(strikers):
 print('-' * 50)
 
 while True:
-        number = int(input('From which players do you want to see the data? (Code) '))
-        if number == 999:
-            break
-        if number >= len(strikers):
-            print(f'WARNING! This number {number} does not exist!')
-        else:
-            print(f'-- SHOW DATA FROM PLAYER {strikers[number]["name"]}: ')
-            for a in range(0, len(strikers[number]["goals"])):
-                print(f'   On the game {a + 1} he scored {strikers[number]["goals"][a]} goals.')
-            print('-' * 50)
+    number = int(input('From which players do you want to see the data? (Code) '))
+    if number == 999:
+        break
+    if number >= len(strikers):
+        print(f'WARNING! This number {number} does not exist!')
+    else:
+        print(f'-- SHOW DATA FROM PLAYER {strikers[number]["name"]}: ')
+        for a in range(0, len(strikers[number]["goals"])):
+            print(f'   On the game {a + 1} he scored {strikers[number]["goals"][a]} goals.')
+        print('-' * 50)
 
 print(f' << PROGRAM FINISHED >> ')

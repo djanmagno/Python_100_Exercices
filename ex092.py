@@ -17,11 +17,9 @@ if employee['ctps'] == 0:
 else:
     employee['hire'] = int(input('Year of Hiring: '))
     employee['salary'] = round(float(input('Salary: R$ ')), 2)
-    employee['retirement'] = employee['age'] + ((35 + employee["hire"]) - now )
+    employee['retirement'] = employee['age'] + ((35 + employee["hire"]) - now)
     print('-=' * 30)
     print(employee)
 
     for a, b in employee.items():
         print(f'- {a} has as value {b}')
-
-

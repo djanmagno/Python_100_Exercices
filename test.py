@@ -1,42 +1,18 @@
-# ATM
+group = [{'name': 'djan', 'goals': [1, 2], 'score': 3}, {'name': 'vivi', 'goals': [1, 1, 1], 'score': 3},
+         {'name': 'be', 'goals': [1, 2, 4, 0], 'score': 7}, {'name': 'ka', 'goals': [1, 2, 3, 3, 0], 'score': 9},]
 
-print('=' * 50)
-print(' ' * 18 + "DJAN's ATM" + ' ' * 10)
-print('=' * 50)
+print('Code', end=' ')
+print('Name', end='          ')
+print('Goals', end='          ')
+print('Total', end='')
+print()
+print('-' * 50)
 
-value = abs(int(input('The amount to withdraw: R$ ')))
+for a, b in enumerate(group):
+    print(a, end='    ')
+    print(f'{b["name"]:<5}', end='         ')
+    print(f'{b["goals"]}', end='          ')
+    print(f'{b["score"]:>2}', end='')
+    print()
 
-r50 = r20 = r10 = r1 = 0
-rest = 0
 
-while True:
-
-    if (value % 50) == 0:
-        r50 = int(value/50)
-        print(f'numero de cedulas de R$ 50 é {r50}')
-        break
-    else:
-        r50 = int(value / 50)
-        print(f'numero de cedulas de R$ 50 é {r50}')
-        rest = (value % 50)
-    if (rest % 20) == 0:
-        r20 = rest/20
-        print(f'numero de cedulas de R$ 20 é {r20}')
-        break
-    else:
-        r20 = int(rest / 20)
-        rest = (rest % 20)
-        print(f'numero de cedulas de R$ 20 é {r20}')
-    if (rest % 10) == 0:
-        r10 = int(rest / 10)
-        print(f'numero de cedulas de R$ 10 é {r10}')
-        break
-    else:
-        r10 = int(rest / 10)
-        rest = (rest % 10)
-        print(f'numero de cedulas de R$ 10 é {r10}')
-        r1 = int(rest/1)
-        print(f'numero de cedulas de R$ 1 é {r1}')
-        break
-
-print('Finish')

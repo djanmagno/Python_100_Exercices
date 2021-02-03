@@ -1,9 +1,7 @@
 # 100 Exercícios de Python
-> Estudo de Python na prática atraves de mais de 100 exercícios.
+> Estudo prático de Python Básico através de mais de 100 exercícios.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![author](https://img.shields.io/badge/author-djanmagno-red.svg)](https://www.linkedin.com/in/djan-de-alcantara-magno-698a8a106/) [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/djanmagno/data_science/issues)
 
 Neste projeto pude desenvolver habilidades básicas de Python aprendidas de forma prática com exercícios que simulam aplicações reais que podem ser feitas apenas com uso de Python para nosso dia-a-dia.
 
@@ -24,72 +22,22 @@ Este conteúdo foi baseado no Curso de Python 3 do Canal Curso em Vídeo com 120
    * Funções em Python
    * Modularição em Python
    * Tratamento de Erros em Python
-
 ![](../header.png)
 
-## Instalação
+## Ferramentas de Desenvolvimento
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
-
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
-
-## Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-```sh
-make install
-npm test
-```
-
-## Histórico de lançamentos
-
-* 0.2.1
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1
-    * Trabalho em andamento
+* Pycharm
+* Git
+* Github
 
 ## Meta
 
-Seu Nome – [@SeuNome](https://twitter.com/...) – SeuEmail@exemplo.com
+Revisar e aprender mais sobre Python 3 e suas usuabilidades.
 
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
+Djan Magno – [@djanmagno] – djan.de_alcantara_magno@edu.escp.eu
 
-[https://github.com/yourname/github-link](https://github.com/othonalberto/)
+[https://github.com/djanmagno]
 
-## Contributing
+## Contribuintes
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
-2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
-3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
-4. _Push_ (`git push origin feature/fooBar`)
-5. Crie um novo _Pull Request_
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/seunome/seuprojeto/wiki
+1. Curso Em Vídeo (https://www.cursoemvideo.com/cursos/)

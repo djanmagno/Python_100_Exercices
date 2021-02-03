@@ -1,11 +1,29 @@
-# Nome do produto
-> Descrição curta sobre o que seu projeto faz.
+# 100 Exercícios de Python
+> Estudo de Python na prática atraves de mais de 100 exercícios.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Neste projeto pude desenvolver habilidades básicas de Python aprendidas de forma prática com exercícios que simulam aplicações reais que podem ser feitas apenas com uso de Python para nosso dia-a-dia.
+
+Este conteúdo foi baseado no Curso de Python 3 do Canal Curso em Vídeo com 120 horas, cujo conteúdo foi:
+
+   * Introdução ao Mundo da Programação
+   * Primeiros Passos com Python
+   * Tratando Dados e Fazendo Contas com Python
+   * Usando Módulos do Python
+   * Condições em Python (if..else)
+   * Adicionando cores ao output da função Print em Python
+   * Condições em Python (if...elif)
+   * Repetições em Python (for statement)
+   * Repetições em Python (while statement)
+   * Tuplas em Python
+   * Lista em Python
+   * Dicionários em Python
+   * Funções em Python
+   * Modularição em Python
+   * Tratamento de Erros em Python
 
 ![](../header.png)
 
